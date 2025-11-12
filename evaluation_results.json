@@ -1,0 +1,20 @@
+{
+  "evaluation_config": {
+    "custom_checkpoint": "./experiments/mlm_experiment_20251112_134810/final_model/model.safetensors",
+    "max_samples": 500,
+    "device": "cuda"
+  },
+  "results": [
+    {
+      "model_name": "Custom Model",
+      "model_size_M": 149.659077,
+      "evaluation_date": "2025-11-12T15:28:11.354189",
+      "num_samples": 500,
+      "perplexity": 3.3806899209877757,
+      "accuracy": 0.7278207312278863,
+      "top5_accuracy": 0.884697434830116,
+      "inference_time_ms": 185.68943977355957,
+      "inference_time_std_ms": 61.67188255239927
+    }
+  ]
+}
